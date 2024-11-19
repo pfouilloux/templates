@@ -1,0 +1,21 @@
+# Exclude everything by default
+*
+!*/
+
+# Core files
+!.gitignore
+!LICENSE.md
+!README.md
+!CONTRIBUTING.md
+!CHANGELOG.md
+
+# Documentation
+!docs/**/*.md
+
+# DevContainer configs
+!.devcontainer/**/*
+!devcontainer.json
+
+# Docker files
+!Dockerfile
+!.dockerignore
